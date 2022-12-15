@@ -1,0 +1,334 @@
+:root {
+  --text-color: #EAEFDB;
+  --bg-color: #000200;
+  --green-color: #316A4A;
+  --links-color: #FE9373;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+body {
+  background-color: var(--bg-color);
+  border-left: 10px solid var(--green-color);
+  border-right: 10px solid var(--green-color);
+}
+
+.main-title {
+  width: fit-content;
+  margin: 120px auto 50px;
+  color: var(--text-color);
+  font-size: 35px;
+  background-color: #555;
+  padding: 0 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+}
+
+.card {
+  background-color: var(--text-color);
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.social-media a i {
+  color: var(--text-color);
+  font-size: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+.fa-linkedin-in {
+  background-color: #0072b1;
+}
+.fa-github {
+  background-color: purple;
+}
+.fa-twitter {
+  background-color: 	#1DA1F2;
+}
+
+/* .portfolio, .resume, .contact {
+  padding: 10px 10px;
+} */
+
+
+/* ------------------------------------- */
+/* Header */
+header {
+  background-color: var(--green-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+header p {
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* -------------------------------------- */
+/* Intro Banner */
+.intro-banner {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.intro-banner img{
+  margin: 50px auto 10px;
+  width: 150px;
+  border: 5px solid var(--green-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.intro-banner .name {
+  margin: 10px 10px 30px;
+  font-size: 18px;
+}
+
+.intro-banner .role {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.intro-banner .social-media {
+  margin-bottom: 30px;
+}
+
+.intro-banner .social-media a {
+  color: var(--text-color);
+  margin: 5px;
+  font-size: 30px;
+}
+
+.intro-banner .service {
+  font-size: 18px;
+}
+/* ----------------------------------- */
+/* Nav */
+nav {
+  height: 50px;
+  background-color: var(--green-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  padding: 0 10px;
+  border-left: 2px solid var(--text-color);
+}
+nav a:first-child{
+  border: none;
+}
+nav a:hover {
+  padding: 1px;
+  color: var(--links-color);
+}
+/* ------------------------------------ */
+/* Summary */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio .cards {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .card img {
+  width: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio h3 {
+  font-size: 40px;
+}
+
+.portfolio p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.portfolio .btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.portfolio .btns a,
+.view-btn {
+  display: inline-block;
+  width: 50%;
+  border: 1px solid var(--bg-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: var(--bg-color);
+  text-align: center;
+  transition:  0.5s;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+}
+.portfolio .btns .btn1,
+.view-btn {
+  background-color: #FE9373;
+}
+.portfolio .btns a:hover {
+  color: #EAEFDB;
+  background-color: var(--bg-color);
+}
+
+/* ------------------------------------ */
+/* Resume Section */
+/* .resume {
+  background-color: #000200;
+} */
+.resume .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume .card img {
+  width: 300px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.resume .view-btn {
+  margin-top: 10px;
+  width: 55%;
+}
+
+.resume .view-btn i {
+  margin-left: 5px;
+}
+/* ------------------------------------ */
+/* Contact Section */
+.contact .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.card {
+  text-align: center;
+  width: 300px;
+}
+.contact .card {
+  padding: 30px 0;
+}
+.contact .container .card h3 {
+  font-size: 40px;
+}
+.contact .container .card p {
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.contact .container .card a{
+  color: var(--bg-color);
+}
+
+.contact .container .card .click {
+  background-color: var(--links-color);
+}
+.contact .container .card i {
+  /* color: #FE9373; */
+  
+  margin-left: 10px;
+  animation: uparrow 0.9s infinite alternate ease-in-out;
+  -webkit-animation: uparrow 0.9s infinite alternate ease-in-out;
+}
+
+
+@-webkit-keyframes uparrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+}
+/* ------------------------------------ */
+/* Footer */
+footer {
+  margin-top: 120px;
+  background-color: var(--green-color);
+  min-height: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+footer p {
+  color: var(--text-color);
+  text-align: center;
+}
