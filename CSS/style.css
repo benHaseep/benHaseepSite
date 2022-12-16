@@ -24,6 +24,7 @@ body {
 
 .main-title {
   width: fit-content;
+  text-align: center;
   margin: 120px auto 50px;
   color: var(--text-color);
   font-size: 35px;
@@ -46,18 +47,19 @@ body {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  padding-bottom: 30px;
+  padding: 0 0 30px;
 }
+
 
 .social-media a i {
   color: var(--text-color);
   font-size: 25px;
   margin-right: 10px;
   border-radius: 50%;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .fa-linkedin-in {
   background-color: #0072b1;
@@ -69,9 +71,9 @@ body {
   background-color: 	#1DA1F2;
 }
 
-/* .portfolio, .resume, .contact {
-  padding: 10px 10px;
-} */
+.portfolio, .resume, .contact {
+
+}
 
 
 /* ------------------------------------- */
@@ -184,6 +186,13 @@ nav a:hover {
   align-items: center;
 }
 
+.portfolio .card {
+  min-height: 400px;
+}
+
+.portfolio .card p {
+}
+
 .portfolio .card img {
   width: 100%;
   border-radius: 20px;
@@ -196,11 +205,14 @@ nav a:hover {
 
 .portfolio h3 {
   font-size: 40px;
+  padding: 5px;
 }
 
-.portfolio p {
+.portfolio .card p {
   font-size: 20px;
   margin-bottom: 10px;
+  padding: 5px 15px;
+
 }
 
 .portfolio .btns {
