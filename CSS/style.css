@@ -125,13 +125,13 @@ header p {
 }
 
 .intro-banner .name {
-  margin: 10px 10px 30px;
+  /* margin: 10px 10px 30px; */
   font-size: 18px;
   font-weight: bold;
 }
 
 .intro-banner .role {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
   
