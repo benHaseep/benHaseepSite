@@ -19,8 +19,6 @@ html {
 
 body {
   background-color: var(--bg-color);
-  border-left: 10px solid var(--green-color);
-  border-right: 10px solid var(--green-color);
 }
 
 .main-title {
