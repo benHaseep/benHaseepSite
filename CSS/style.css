@@ -1,13 +1,14 @@
-
 :root {
-  --text-color: #EAEFDB;
+  --text-color: #eaefdb;
   --bg-color: #000200;
-  --green-color: #316A4A;
-  --links-color: #FE9373;
+  --green-color: #316a4a;
+  --links-color: #fe9373;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 * {
   margin: 0;
   transition: 0.3s;
@@ -51,7 +52,6 @@ body {
   /* box-shadow: 0 5px 25px rgba(1 1 1 / 15%); */
 }
 
-
 .social-media a i {
   /* color: var(--bg-color); */
   font-size: 25px;
@@ -62,27 +62,30 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
 .fa-telegram {
   color: #0088cc;
 }
+
 .fa-whatsapp {
   color: #075e54;
 }
+
 .fa-linkedin-in {
   color: #0072b1;
 }
+
 .fa-github {
   color: purple;
 }
+
 .fa-twitter {
-  color: 	#1DA1F2;
+  color: #1da1f2;
 }
 
-
-.portfolio, .resume, .contact {
-
-}
-
+.portfolio,
+.resume,
+.contact {}
 
 /* ------------------------------------- */
 /* Header */
@@ -111,7 +114,7 @@ header p {
   margin-bottom: 50px;
 }
 
-.intro-banner img{
+.intro-banner img {
   margin: 50px auto 10px;
   width: 150px;
   border: 5px solid var(--green-color);
@@ -131,7 +134,6 @@ header p {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
-  
 }
 
 .intro-banner .social-media {
@@ -155,6 +157,7 @@ header p {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 /* ----------------------------------- */
 /* Nav */
 nav {
@@ -164,6 +167,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 nav a {
   text-decoration: none;
   color: var(--text-color);
@@ -177,13 +181,16 @@ nav a {
   padding: 0 10px;
   border-left: 2px solid var(--text-color);
 }
-nav a:first-child{
+
+nav a:first-child {
   border: none;
 }
+
 nav a:hover {
   padding: 1px;
   color: var(--links-color);
 }
+
 /* ------------------------------------ */
 /* Summary */
 .portfolio {
@@ -206,8 +213,7 @@ nav a:hover {
   min-height: 400px;
 }
 
-.portfolio .card p {
-}
+.portfolio .card p {}
 
 .portfolio .card img {
   width: 100%;
@@ -228,7 +234,6 @@ nav a:hover {
   font-size: 20px;
   margin-bottom: 10px;
   padding: 5px 15px;
-
 }
 
 .portfolio .btns {
@@ -238,6 +243,7 @@ nav a:hover {
   align-items: center;
   gap: 10px;
 }
+
 .portfolio .btns a,
 .view-btn {
   display: inline-block;
@@ -253,18 +259,20 @@ nav a:hover {
   font-weight: 300;
   color: var(--bg-color);
   text-align: center;
-  transition:  0.5s;
-  -webkit-transition:  0.5s;
-  -moz-transition:  0.5s;
-  -ms-transition:  0.5s;
-  -o-transition:  0.5s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
+
 .portfolio .btns .btn1,
 .view-btn {
-  background-color: #FE9373;
+  background-color: #fe9373;
 }
+
 .portfolio .btns a:hover {
-  color: #EAEFDB;
+  color: #eaefdb;
   background-color: var(--bg-color);
 }
 
@@ -273,7 +281,7 @@ nav a:hover {
 /* .resume {
   background-color: #000200;
 } */
-.resume .container{
+.resume .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -297,6 +305,7 @@ nav a:hover {
 .resume .view-btn i {
   margin-left: 5px;
 }
+
 /* ------------------------------------ */
 /* Contact Section */
 .contact .container {
@@ -306,41 +315,54 @@ nav a:hover {
   align-items: center;
   gap: 50px;
 }
+
 .card {
   text-align: center;
   width: 300px;
 }
+
 .contact .card {
   padding: 30px 0;
 }
+
 .contact .container .card h3 {
   font-size: 40px;
 }
+
 .contact .container .card p {
   font-size: 20px;
   margin-top: 30px;
   font-weight: bold;
 }
-.contact .container .card a{
+
+.contact .container .card a {
   color: var(--bg-color);
 }
 
 .contact .container .card .click {
   background-color: var(--links-color);
 }
+
 .contact .container .card i {
   /* color: #FE9373; */
-  
+
   margin-left: 10px;
   animation: uparrow 0.9s infinite alternate ease-in-out;
   -webkit-animation: uparrow 0.9s infinite alternate ease-in-out;
 }
 
-
 @-webkit-keyframes uparrow {
-  0% { -webkit-transform: translateY(0); opacity: 0.4 }
-  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+  0% {
+    -webkit-transform: translateY(0);
+    opacity: 0.4;
+  }
+
+  100% {
+    -webkit-transform: translateY(-0.4em);
+    opacity: 0.9;
+  }
 }
+
 /* ------------------------------------ */
 /* Footer */
 footer {
