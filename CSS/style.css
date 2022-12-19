@@ -125,8 +125,8 @@ header p {
 }
 
 .intro-banner .name {
-  /* margin: 10px 10px 30px; */
   font-size: 18px;
+  font-weight: bold;
 }
 
 .intro-banner .role {
