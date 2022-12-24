@@ -127,9 +127,26 @@ header p {
 }
 
 .intro-banner .role {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+/* .intro-banner .skills i {
+  margin: 5px;
+  font-size: 25px;
+} */
+.intro-banner .skills span{
+  font-size: 15px;
+}
+.intro-banner .skills .html {
+  color: #f06529;
+}
+.intro-banner .skills .css {
+  color: #2965f1;
+}
+.intro-banner .skills .js {
+  color: #f0db4f ;
 }
 
 .intro-banner .social-media {
@@ -153,6 +170,7 @@ header p {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 
 /* ----------------------------------- */
 /* Nav */
