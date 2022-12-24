@@ -83,10 +83,6 @@ body {
   color: #1da1f2;
 }
 
-.portfolio,
-.resume,
-.contact {}
-
 /* ------------------------------------- */
 /* Header */
 header {
@@ -131,7 +127,7 @@ header p {
 }
 
 .intro-banner .role {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -343,7 +339,7 @@ nav a:hover {
   background-color: var(--links-color);
 }
 
-.contact .container .card i {
+.contact .container .card p i {
   /* color: #FE9373; */
 
   margin-left: 10px;
