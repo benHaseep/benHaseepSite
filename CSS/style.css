@@ -330,34 +330,24 @@ nav a:hover {
   gap: 50px;
 }
 
-.card {
+/* .card {
   text-align: center;
   width: 300px;
-}
+} */
 
 .contact .card {
   padding: 30px 0;
 }
 
-.contact .container .card h3 {
+.contact .container .card a {
+  color: var(--bg-color);
   font-size: 40px;
   color: var(--green-color);
 }
 
-.contact .container .card p {
-  font-size: 15px;
-  margin-top: 30px;
-  font-weight: bold;
-  margin: 10px;
-}
-
-.contact .container .card a {
-  color: var(--bg-color);
-}
-
 .contact .container .card .click {
   background-color: var(--links-color);
-  margin: auto;
+  margin-top: 40px;
 }
 
 .contact .container .card p i {
