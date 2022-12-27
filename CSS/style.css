@@ -83,6 +83,10 @@ body {
   color: #1da1f2;
 }
 
+hr {
+  margin-top: 20px;
+}
+
 /* ------------------------------------- */
 /* Header */
 header {
