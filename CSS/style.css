@@ -10,6 +10,7 @@ html {
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -49,7 +50,6 @@ body {
   -o-border-radius: 20px;
   padding: 0 0 30px;
   box-shadow: 0 5px 25px rgba(153, 153, 153, 9);
-  /* box-shadow: 0 5px 25px rgba(1 1 1 / 15%); */
 }
 
 .social-media a i {
@@ -184,6 +184,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
 nav a {
