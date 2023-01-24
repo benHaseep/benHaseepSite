@@ -234,8 +234,6 @@ nav a:hover {
   min-height: 400px;
 }
 
-.portfolio .card p {}
-
 .portfolio .card img {
   width: 100%;
   border-radius: 20px;
@@ -257,7 +255,7 @@ nav a:hover {
   padding: 5px 15px;
 }
 
-.portfolio .btns {
+.card .btns {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -265,10 +263,11 @@ nav a:hover {
   gap: 10px;
 }
 
-.portfolio .btns a,
+.card .btns a,
 .view-btn {
   display: inline-block;
-  width: 50%;
+  min-width: 70%;
+  max-width: fit-content;
   border: 1px solid var(--bg-color);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -287,12 +286,12 @@ nav a:hover {
   -o-transition: 0.5s;
 }
 
-.portfolio .btns .btn1,
+.card .btns .btn1,
 .view-btn {
   background-color: #fe9373;
 }
 
-.portfolio .btns a:hover {
+.card .btns a:hover {
   color: #eaefdb;
   background-color: var(--bg-color);
 }
@@ -319,12 +318,12 @@ nav a:hover {
 }
 
 .resume .view-btn {
-  margin-top: 10px;
+  margin-top: 5px;
   width: 55%;
 }
 
-.resume .view-btn i {
-  margin-left: 5px;
+.resume a i {
+  margin-left: 10px;
 }
 
 /* ------------------------------------ */
@@ -337,30 +336,26 @@ nav a:hover {
   gap: 50px;
 }
 
-/* .card {
-  text-align: center;
-  width: 300px;
-} */
-
 .contact .card {
   padding: 30px 0;
 }
 
-.contact .container .card a {
-  color: var(--bg-color);
+.contact .container .card > a {
   font-size: 40px;
   color: var(--green-color);
 }
 
-.contact .container .card .click {
-  background-color: var(--links-color);
-  margin-top: 40px;
+.contact .container .btns a {
+  margin-top: 30px;
 }
 
-.contact .container .card p i {
+.contact .btns .contact-btn {
+  background-color: var(--links-color);
+}
+.contact .container .card .btns i {
   margin-left: 10px;
-  animation: uparrow 0.9s infinite alternate ease-in-out;
-  -webkit-animation: uparrow 0.9s infinite alternate ease-in-out;
+  /* animation: uparrow 0.9s infinite alternate ease-in-out;
+  -webkit-animation: uparrow 0.9s infinite alternate ease-in-out; */
 }
 
 @-webkit-keyframes uparrow {
